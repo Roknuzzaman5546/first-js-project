@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h2>Phone hunter</h2>
+    </header>
+    <main>
+        <section>
+            <div class="bg-slate-300 p-2 m-4 rounded-lg">
+                <input id="search-input" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                <button onclick="searchclick()" class="btn">Search</button>
+
+                <!-- <input id="search-input2" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                <button onclick="searchclick2()" class="btn">Search</button> -->
+            </div>
+        </section>
+        <section>
+            <div class="text-center my-20">
+                <span id="loading-btn" class="loading loading-dots loading-lg hidden"></span>
+            </div>
+        </section>
+        <section id="push-div" class="grid grid-cols-3 gap-4">
+
+        </section>
+        <section class="text-center">
+            <button onclick="showallclick()" id="show-btn" class="btn btn-accent hidden mt-2">Show all</button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <!-- script link -->
+    <script src="./js/phone.js"></script>
+</body>
+</html>
