@@ -45,7 +45,7 @@ const searchclick = (isshowall) =>{
     loadingfun(true)
     const inputsearch = document.getElementById('search-input');
     const searcvalue = inputsearch.value;
-    loadphone(searcvalue, isshowall)
+    loadphone(searcvalue, isshowall) 
 }
 // const searchclick2 = () =>{
 //     loadingfun(true) 
